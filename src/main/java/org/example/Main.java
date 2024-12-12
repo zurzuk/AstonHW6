@@ -10,5 +10,8 @@ public class Main {
         employees[2] = new Employee("Arnold", "Shnyr", "actuator3040@yandex.ru","+7913","$5001",46);
         employees[3] = new Employee("Mario", "Shnyr", "actuator3001@yandex.ru","+7914","$5006",122);
         employees[4] = new Employee("Luigi", "Shnyr", "actuator3500@yandex.ru","+7915","$5900",156);
+
+        Park park = new Park();
+        System.out.println(park.attractions);
     }
 }
